@@ -10,6 +10,11 @@ Mouse Control is achieved through [BetterTouchTool][2]. "Help Viewer" never actu
 
 ![BetterTouchTool Settings][3]
 
+## Further Development
+
+* This workflow was created on 10.9.5 for Alfred 2.6 (374). I don't plan to upgrade to Yosemite anytime soon, so I will keep it functional for Mavericks and Alfred updates. If you would like to adapt it for other versions, please do.
+
+* If anyone knows how to get "Help Viewer" to respond directly to Applescript run by [Keyboard Maestro][4] or BetterTouchTool, that would be a much more straightforward method. I kept getting "posix_spawn: error 7" though.
 
 [1]:https://github.com/brucehs/alfred_workflow_help_viewer_keyboard_shortcuts/archive/master.zip
 
@@ -18,9 +23,3 @@ Mouse Control is achieved through [BetterTouchTool][2]. "Help Viewer" never actu
 [3]:https://github.com/brucehs/alfred_workflow_help_viewer_keyboard_shortcuts/blob/master/Workflow/btt_settings.png?raw=true
 
 [4]:http://www.keyboardmaestro.com/main/
-
-## Further Development
-
-* This workflow was created on 10.9.5 for Alfred 2.6 (374). I don't plan to upgrade to Yosemite anytime soon, so I will keep it functional for Mavericks and Alfred updates. If you would like to adapt it for other versions, please do.
-
-* If anyone knows how to get "Help Viewer" to respond directly to Applescript run by [Keyboard Maestro][4] or BetterTouchTool, that would be a much more straightforward method. I kept getting "posix_spawn: error 7" though.
